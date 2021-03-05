@@ -10,9 +10,6 @@ import re
 # append module path
 sys.path.append(os.getcwd())
 
-# self.htmldir = 'X:\\docker\\data\\www\\html\\'
-# templatedir = 'X:\\docker\\data\\www\\html\\'
-
 # regexs
 startindicator = re.compile(r'#\{php[1-99]}')
 endindicator = re.compile(r'#\{/php[1-99]}')
