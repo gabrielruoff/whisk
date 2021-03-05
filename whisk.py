@@ -48,12 +48,12 @@ class whisk:
                 print('backup set to false, skipping')
                 self.abort('nobackupdir')
             else:
-                print('\n2. Backing up old php files to '+self.backupdir)
+                print('\n2. Backing up old php files to \''+self.backupdir+'\'')
                 for filename in pagestobuild:
                     filename = self.stripextension(filename) + '.php'
                     # iterate through target files
                     if filename in os.listdir(self.htmldir):
-                        remove = any([s for s in os.listdir(self.htmldir + 'backup') if filename in s])
+                        remove = any([s for s in os.listdir(self.htmldir + self.backupdir) if filename in s])
                         if remove:
                             os.remove(self.htmldir + 'backup\\' + filename)
                         os.rename(self.htmldir + filename, self.htmldir + 'backup\\' + filename)
