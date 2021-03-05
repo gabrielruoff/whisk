@@ -1,6 +1,6 @@
-# whisk
+# Whisk
 
-### Whisk is a utility to combine PHP scripting with generated static html in order to easily build data-driven sites. 
+### Whisk is a utility to combine PHP scripting with static html in order to seamlessly create beautiful data-driven websites.
 There are many tools available which allow users to produce visually appealing static HTML pages from a simple drag-and-drop interface. While convient and powerful, popular software in this space such as [Wordpress](https://wordpress.com), [Squarespace](https://squarespace.com), [Jekyll](https://jekyllrb.com/), or [Hugo](https://gohugo.io/) lack the functionality for users to integrate php scripting into their webpages.
 
 Web scripting languages such as php allow developers to create dynamic, database-driven sites and web-based applications, however testing php scripts and integrating them into html pages is very inefficient. When html is exported from a generator, corresponding sections of php code must be copy-pasted direcly into each html document, then each document much be renamed to a .php file. When developers are updating static html with high frequency or working with large numbers of pages, this process becomes very inefficient.
@@ -98,3 +98,7 @@ build php files with backup enabled
 backup can be skipped with simply
 
 `w.build()`
+
+Gabriel Ruoff, 2021
+[gabrielruoff.com](https://gabrielruoff.com)
+geruoff@syr.edu
