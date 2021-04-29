@@ -101,4 +101,4 @@ backup can be skipped with simply
 
 Gabriel Ruoff, 2021
 [gabrielruoff.com](https://gabrielruoff.com)
-geruoff@syr.edu
+geruoff@gmail.com
